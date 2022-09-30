@@ -1,0 +1,121 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#logo {
+    width: 200px;
+    height: 70px;
+    margin-top: -5px;
+}
+
+#first {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
+#second {
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.cont {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+    /* border: 5px solid yellow; */
+    border-radius: 5px;
+}
+
+#login {
+    color: green;
+}
+
+#start {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    border: 10px solid green;
+}
+
+#container {
+    height: 100vh;
+    background-color: #181f38;
+    padding-top: 100px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://web-static.wrike.com/content/uploads/2020/12/rebrand-hero-illustration_teams_business-operations_upd_1x.png?av=05a83a50e57fcbf42ea2e136e475ed31), url(https://web-static.wrike.com/content/uploads/2020/12/rebrand-hero-illustration_teams_company-wide_upd_1x.png?av=f72d9b13e6e1643a0622882f92b2aca8);
+    background-position: right, left;
+    background-repeat: no-repeat;
+    background-size: calc();
+}
+
+#first2 {
+    width: 25%;
+    margin-left: 400px;
+    background-color: white;
+}
+
+#first2>div {
+    width: 40%;
+    margin: auto;
+}
+
+#first2>div>div {
+    margin-top: 30px;
+    font-size: 22px;
+    color: black;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#second2 {
+    width: 25%;
+    background-color: white;
+}
+
+#second2>div {
+    width: 40%;
+    margin: auto;
+}
+
+#second2>div>div {
+    margin-top: 30px;
+    font-size: 22px;
+    color: black;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#second2>div>div:hover {
+    cursor: pointer;
+    background-color: #181f38;
+    border: 5px;
+    color: white;
+}
+
+#first2>div>div:hover {
+    cursor: pointer;
+    background-color: #181f38;
+    border: 5px;
+    color: white;
+}
