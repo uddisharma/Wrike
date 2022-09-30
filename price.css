@@ -1,0 +1,716 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#logo {
+    width: 200px;
+    height: 70px;
+    margin-top: -5px;
+}
+
+#first {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
+#second {
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.cont {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+    /* border: 5px solid yellow; */
+    border-radius: 5px;
+}
+
+#login {
+    color: green;
+}
+
+#start {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    border: 10px solid green;
+}
+
+#cont1 {
+    padding-top: 50px;
+    height: auto;
+    background-color: #f5f2eb;
+    background-image: url(https://web-static.wrike.com/content/themes/wrike/dist/img/vector/rebranding/price/intro-background.svg?v=10a06b924a);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cont1>h1 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    font-size: 55px;
+}
+
+#plans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 300px;
+    height: 60px;
+    gap: 30px;
+}
+
+#plans>p {
+    border: 2px solid gray;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: white;
+    line-height: 40px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+#plans>p:hover {
+    cursor: pointer;
+    border-top: 5px solid aqua;
+}
+
+#container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#container2>div {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#container2>div>h2 {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+#container2>div>p {
+    margin-top: 20px;
+}
+
+.price {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.btn {
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+    margin-left: 15px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 22px;
+}
+
+.btns {
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+    margin-left: 15px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+}
+
+.btns:hover {
+    cursor: pointer;
+    background-color: rgb(40, 32, 48);
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(6, 85, 6);
+    color: white;
+}
+
+.butns {
+    margin-top: 30px;
+    width: 90%;
+    text-align: center;
+    margin-left: 15px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 22px;
+}
+
+.butns:hover {
+    cursor: pointer;
+    background-color: rgb(40, 32, 48);
+    color: white;
+}
+
+#container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#container3>div {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#container3>div>p {
+    margin-top: 10px;
+    width: 90%;
+    text-decoration: underline;
+}
+
+#container3>div>p:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#btn1 {
+    margin-top: 185px;
+    height: 60px;
+    width: 90%;
+    /* margin: auto; */
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    font-size: 22px;
+}
+
+#btn1:hover {
+    cursor: pointer;
+    background-color: rgb(40, 32, 48);
+    color: white;
+}
+
+#btn2 {
+    margin-top: 460px;
+    height: 60px;
+    width: 90%;
+    /* margin: auto; */
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    font-size: 22px;
+    background-color: green;
+}
+
+#btn2:hover {
+    cursor: pointer;
+    background-color: rgb(8, 88, 18);
+    color: white;
+}
+
+#btn3 {
+    margin-top: 45px;
+    height: 60px;
+    width: 90%;
+    /* margin: auto; */
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    font-size: 22px;
+    background-color: green;
+}
+
+#btn3:hover {
+    cursor: pointer;
+    background-color: rgb(8, 88, 18);
+    color: white;
+}
+
+#btn4 {
+    margin-top: 295px;
+    height: 60px;
+    width: 90%;
+    /* margin: auto; */
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    font-size: 22px;
+    background-color: green;
+}
+
+#btn4:hover {
+    cursor: pointer;
+    background-color: rgb(8, 88, 18);
+    color: white;
+}
+
+#container4 {
+    background-color: #ebf5f3;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url(https://web-static.wrike.com/content/themes/wrike/dist/img/vector/rebranding/price/banner-background-left.svg?v=9a00b45536), url(https://web-static.wrike.com/content/themes/wrike/dist/img/vector/rebranding/price/banner-background-left.svg?v=9a00b45536);
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+#container4>p {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#container4>p:nth-child(1) {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+#container4>p:nth-child(2) {
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+
+#container4>p:nth-child(2):hover {
+    cursor: pointer;
+    color: rgb(9, 66, 9);
+    text-decoration: underline;
+}
+
+#container5 {
+    height: 500px;
+    background-color: white;
+}
+
+#container5>p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+#logos {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-evenly;
+}
+
+#logos>div>img:hover {
+    cursor: pointer;
+}
+
+#container6 {
+    height: auto;
+    background-color: #ebf5f3;
+}
+
+#container6>h1 {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 75px;
+    font-size: 40px;
+}
+
+#container6>p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+#wrike {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    gap: 20px;
+    padding: 15px;
+    padding-bottom: 90px;
+}
+
+#wrike>div {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#wrike>div:hover {
+    background-color: #0c3245;
+    cursor: pointer;
+    color: white;
+}
+
+.whireflex {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.whireflex>div>p {
+    width: 80%;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.whireflex>div>h1 {
+    padding-top: 20px;
+}
+
+.whireflex>div>img {
+    padding-top: 20px;
+    color: #0c3245;
+}
+
+.whireflex>div>p:nth-child(3) {
+    font-weight: bold;
+    color: #0c3245;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.whireflex>div>p:nth-child(3):hover {
+    color: black;
+}
+
+#container7 {
+    height: auto;
+    background-color: white;
+    /* margin-top: 70px; */
+}
+
+#container7>h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+#container7>p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 22px;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+#services>div {
+    padding: 20px;
+}
+
+#services>div>h2 {
+    margin-top: 15px;
+}
+
+#services>div>p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#container7>button {
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#container7>button:hover {
+    cursor: pointer;
+    background-color: #0c3245;
+    color: white;
+}
+
+#container8 {
+    height: auto;
+    background-color: #ebf5f3;
+}
+
+#container8>h1 {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    color: #0c3245;
+}
+
+#faq {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+#faq>div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 15px;
+    height: 100px;
+    padding: 15px;
+    padding-top: 35px;
+    font-size: 22px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#faq>div:hover {
+    cursor: pointer;
+    background-color: #0c3245;
+    color: white;
+}
+
+#container9 {
+    height: auto;
+    background-color: #0c3245;
+    background-image: url(https://web-static.wrike.com/content/uploads/2020/06/rebrand-cta-center-2_left_mint_1x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container9>h1 {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 60px;
+}
+
+#container9>p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+#container9>button {
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-left: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#container9>button:hover {
+    cursor: pointer;
+    background-color: rgb(60, 170, 60);
+    color: white;
+}
+
+#container10 {
+    height: auto;
+    background-color: #0c3245;
+    background-image: url(https://www.wrike.com/tp/static/assets/img/features-background/feature-bg-1-dark.png);
+}
+
+#container10>h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+#container10>p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.apply1 {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 35px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apply1>input {
+    height: 70px;
+    width: 390px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.apply1>button {
+    width: 190px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+}
+
+.apply1>button:hover {
+    cursor: pointer;
+    background-color: rgb(26, 88, 26);
+}
+
+#footer1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 80px;
+    padding-left: 50px;
+}
+
+#footer1>div>h2 {
+    color: white;
+}
+
+#footer1>div>p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#footer1>div>p:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#footer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    /* gap: 40px; */
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+#footer2>div>h2 {
+    color: white;
+}
+
+#footer2>div>p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#footer2>div>p:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#footer3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+#apps {
+    display: flex;
+}
+
+#apps>img {
+    height: 60px;
+    width: 150px;
+}
+
+#apps>img:hover {
+    cursor: pointer;
+}
+
+#social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 15px;
+}
+
+#social>img {
+    height: 30px;
+    width: 25px;
+}
+
+#social>img:hover {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: aqua;
+}
+
+#policy>p {
+    margin-left: 50px;
+}
