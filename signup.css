@@ -1,0 +1,188 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#logo {
+    width: 200px;
+    height: 70px;
+    margin-top: -5px;
+}
+
+#first {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
+#second {
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.cont {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+    /* border: 5px solid yellow; */
+    border-radius: 5px;
+}
+
+#login {
+    color: green;
+}
+
+#start {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    border: 10px solid green;
+}
+
+#container1 {
+    height: auto;
+    background-color: #ebedf5;
+    padding-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://web-static.wrike.com/content/uploads/2020/06/rebrand-hero-illustration_use-case_enterprise-page_1x.png?av=0cf8f815f4406156044921bcf4e369d3), url(https://web-static.wrike.com/tp/static/summaries-bg-4-left.d19e9b50ab36af26e681.svg);
+    background-position: right, top;
+    background-repeat: no-repeat;
+    background-size: calc(), cover;
+}
+
+#loginpage {
+    width: 33%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+    padding-bottom: 20px;
+}
+
+#loginpage>img {
+    width: 230px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+#loginpage>input {
+    width: 80%;
+    margin-left: 42px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#loginpage>button {
+    margin-top: 30px;
+    height: 50px;
+    width: 82%;
+    margin-left: 42px;
+    background-color: #0c3245;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+}
+
+#loginpage>button:hover {
+    cursor: pointer;
+    background-color: rgb(26, 26, 70);
+}
+
+#loginpage>p {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: #0c3245;
+}
+
+#loginpage>p:hover {
+    cursor: pointer;
+}
+
+#loginpage>h4 {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    color: gray;
+    font-size: 20px;
+}
+
+#lgwith {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#lgwith>div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#lgwith>div:hover {
+    cursor: pointer;
+    background-color: rgb(218, 210, 210);
+}
+
+.google {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: -25px; */
+}
+
+.google>div>img {
+    width: 25px;
+    height: 25px;
+    margin-top: 18px;
+}
+
+.google>div>p {
+    font-size: 20px;
+}
+
+#signup {
+    display: flex;
+    width: 23%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#signup>p:nth-child(2) {
+    color: rgb(55, 55, 182);
+}
+
+#signup>p:nth-child(2):hover {
+    color: #0c3245;
+    cursor: pointer;
+}
