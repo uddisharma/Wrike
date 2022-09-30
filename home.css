@@ -1,0 +1,563 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    background-color: #181f38;
+    background-image: url(https://web-static.wrike.com/cdn-cgi/image/width=3840,format=auto,quality=80/tp/storage/uploads/cffacf70-9be3-47e1-a1ea-a1f93f1a120c/rebrand-hero-illustration-homepage-screenshots-dark-1920x680-2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: fixed;
+    background-color: #181f38;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#logo {
+    width: 200px;
+    height: 70px;
+    margin-top: -5px;
+}
+
+#first {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
+#second {
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.cont {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+    /* border: 5px solid yellow; */
+    border-radius: 5px;
+}
+
+#login {
+    color: green;
+}
+
+#start {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    border: 10px solid green;
+}
+
+#main {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-top: 85px;
+    color: white;
+}
+
+#main>h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+#main>p {
+    margin-top: 25px;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+.apply {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.apply>input {
+    height: 70px;
+    width: 390px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.apply>button {
+    width: 190px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+}
+
+.apply>button:hover {
+    cursor: pointer;
+    background-color: rgb(26, 88, 26);
+}
+
+#story {
+    color: green;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+#story:hover {
+    cursor: pointer;
+    color: rgb(26, 88, 26);
+}
+
+.container2 {
+    /* background-color: rgb(18, 39, 26); */
+    background-color: #0c3245;
+    height: auto;
+    background-image: url(https://www.wrike.com/tp/static/assets/img/features-background/feature-bg-1-dark.png);
+}
+
+.container2>p {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding-top: 40px;
+}
+
+#cont2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+
+#collabrate {
+    height: 400px;
+    /* width: 50%; */
+    margin-left: 40px;
+    margin-top: 250px;
+}
+
+#colimg>img {
+    height: 800px;
+    width: 800px;
+    margin-right: 20px;
+}
+
+#collabrate>p {
+    margin-bottom: 30px;
+    /* color: gray; */
+    font-weight: bolder;
+    width: 70%;
+    font-size: 20px;
+}
+
+#collabrate>h1 {
+    margin-bottom: 45px;
+    width: 70%;
+    color: white;
+}
+
+#head {
+    color: gray;
+}
+
+#collabrate>h3 {
+    color: green;
+    font-size: 25px;
+}
+
+#collabrate>h3:hover {
+    cursor: pointer;
+}
+
+#container3 {
+    height: auto;
+    /* background-color: rgb(94, 102, 138); */
+    background-color: #04454d;
+}
+
+#container3>h1 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 45px;
+    color: white;
+    font-size: 50px;
+}
+
+#cont3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+}
+
+#custimg {
+    width: 100%;
+}
+
+#custimg>img {
+    width: 85%;
+    margin-left: 60px;
+    padding: 30px;
+    margin-top: 12px;
+    border-radius: 35% 0% 0% 0%;
+}
+
+#custmer {
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+#custmer>h2 {
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#walmart {
+    color: rgb(219, 219, 219);
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-style: oblique;
+    display: flex;
+    justify-content: space-between;
+}
+
+#walmartstory {
+    color: green;
+    font-size: 22px;
+    font-style: normal;
+    margin-left: 72px;
+}
+
+#container4 {
+    height: auto;
+    /* background-color: aqua; */
+    background-color: #0c3245;
+    padding-bottom: 90px;
+}
+
+#container4>h1 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+    font-size: 45px;
+}
+
+#container4>p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.cont4 {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Tailored {
+    width: 70%;
+    margin-top: 120px;
+    font-style: normal;
+}
+
+.Tailored>p {
+    color: gray;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.Tailored>h2 {
+    width: 70%;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.Tailored>h3 {
+    margin-top: 20px;
+    color: white;
+    margin-left: 50px;
+    width: 70%;
+}
+
+.Tailoredimg {
+    width: 100%;
+}
+
+.Tailoredimg>img {
+    width: 100%;
+}
+
+.Tailored>h4 {
+    color: green;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.Tailored>h4:hover {
+    cursor: pointer;
+}
+
+.cont4a {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border: 4px solid green;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cont4a>h2 {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+.arvig {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.arvig>h3 {
+    margin-top: 15px;
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#container5 {
+    height: auto;
+    background-color: #181f38;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-image: url(https://www.wrike.com/tp/static/assets/img/features-background/feature-bg-2-dark.png);
+}
+
+#first1 {
+    margin-top: 150px;
+}
+
+#first1>h2 {
+    width: 70%;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#first1>h3 {
+    margin-top: 20px;
+    color: white;
+    margin-left: 50px;
+    width: 70%;
+}
+
+#first1>h4 {
+    color: green;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#first1>h4:hover {
+    cursor: pointer;
+}
+
+#second2>img {
+    width: 100%;
+}
+
+#container6 {
+    height: auto;
+    background-color: #0c3245;
+    background-image: url(https://www.wrike.com/tp/static/assets/img/features-background/feature-bg-1-dark.png);
+}
+
+#container6>h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+#container6>p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.apply1 {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 35px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apply1>input {
+    height: 70px;
+    width: 390px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.apply1>button {
+    width: 190px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+}
+
+.apply1>button:hover {
+    cursor: pointer;
+    background-color: rgb(26, 88, 26);
+}
+
+#footer1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 80px;
+    padding-left: 50px;
+}
+
+#footer1>div>h2 {
+    color: white;
+}
+
+#footer1>div>p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#footer1>div>p:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#footer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    /* gap: 40px; */
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+#footer2>div>h2 {
+    color: white;
+}
+
+#footer2>div>p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#footer2>div>p:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#footer3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+#apps {
+    display: flex;
+}
+
+#apps>img {
+    height: 60px;
+    width: 150px;
+}
+
+#apps>img:hover {
+    cursor: pointer;
+}
+
+#social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 15px;
+}
+
+#social>img {
+    height: 30px;
+    width: 25px;
+}
+
+#social>img:hover {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: aqua;
+}
+
+#policy>p {
+    margin-left: 50px;
+}
