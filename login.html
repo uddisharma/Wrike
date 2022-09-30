@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
     <link rel="stylesheet" href="login.css" />
+
 </head>
 
 <body>
@@ -87,3 +87,111 @@
 </body>
 
 </html>
+=======
+  </head>
+
+  <body>
+    <div id="navbar">
+      <div id="first">
+        <div>
+          <a href="home.html"
+            ><img
+              id="logo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwTpHxheiX0-wK4Di99ebi4t6VfFJpTHpDQA&usqp=CAU"
+              alt=""
+          /></a>
+        </div>
+        <div class="cont"><a href="product.html">Products</a></div>
+        <div class="cont"><a href="solution.html">Solutions</a></div>
+        <div class="cont"><a href="price.html">Pricing</a></div>
+        <div class="cont"><a href="resource.html">Resources</a></div>
+      </div>
+      <div id="second">
+        <div><a href="contact.html">Contact Sales</a></div>
+        <div><a href="language.html">EN</a></div>
+        <div><a id="login" href="login.html">Log in</a></div>
+        <div><a id="start" href="signup.html">Start for free</a></div>
+      </div>
+    </div>
+    <div id="container1">
+      <div id="loginpage">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwTpHxheiX0-wK4Di99ebi4t6VfFJpTHpDQA&usqp=CAU"
+          alt=""
+        />
+        <input
+          type="email"
+          id="email"
+          placeholder="Email or corporate ID"
+          required
+        />
+        <br />
+        <input
+          type="text"
+          id="paasword"
+          placeholder="Enter Password"
+          required
+        />
+        <br />
+        <button onclick="fun()">Sign In</button>
+        <p>Forgot password ?</p>
+        <h4>or log in with</h4>
+        <div id="lgwith">
+          <div class="google">
+            <div>
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-64/google-1772223-1507807.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>Google</p>
+            </div>
+          </div>
+          <div class="google">
+            <div>
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-64/apple-1464534-1239445.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>Apple</p>
+            </div>
+          </div>
+          <div class="google">
+            <div>
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-64/microsoft-7-129883.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p onclick="funn()">Office</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="signup">
+        <p>Don't have a Wrike account yet?</p>
+        <p>Get started now</p>
+      </div>
+    </div>
+    <script>
+      function fun() {
+        var s_email = localStorage.getItem("email");
+        var s_pass = localStorage.getItem("password");
+        var e_email = document.querySelector("#email");
+        var e_pass = document.querySelector("#password");
+        console.log(s_pass.value);
+
+        if (e_email.value == s_email) {
+          alert("Login Succesful");
+        } else {
+          alert("Either Email or Password does not match");
+        }
+      }
+    </script>
+  </body>
+</html>
+
