@@ -1,0 +1,351 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#logo {
+    width: 200px;
+    height: 70px;
+    margin-top: -5px;
+}
+
+#first {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
+#second {
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.cont {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+    /* border: 5px solid yellow; */
+    border-radius: 5px;
+}
+
+#login {
+    color: green;
+}
+
+#start {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    border: 10px solid green;
+}
+
+#container1 {
+    height: auto;
+    background-color: #ebf5f3;
+    background-image: url(https://web-static.wrike.com/content/uploads/2020/12/rebrand-hero-illustration_teams_pmo-solution_upd_1x.png?av=b83e183ad78a740c6415cff2e82b1691), url(https://web-static.wrike.com/content/uploads/2020/06/rebrand-hero-illustration_agencies_1x.png?av=f90c28615330cd0b287542b9c3989f11);
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-size: contain;
+}
+
+#container1>h1 {
+    padding-top: 140px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+#container1>p {
+    padding-top: 30px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 90px;
+}
+
+#container2 {
+    height: auto;
+}
+
+#cont {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+    padding: 50px;
+}
+
+#cont>h1 {
+    font-size: 50px;
+}
+
+#cont>p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 90px;
+}
+
+#inputs {
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+#inputs>input {
+    width: 95%;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: rgb(207, 204, 204);
+}
+
+#inputs>input:hover {
+    border: 6px solid yellow;
+}
+
+#inputs>select {
+    width: 95%;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: rgb(207, 204, 204);
+}
+
+#inputs>select:hover {
+    border: 6px solid yellow;
+}
+
+#inputs>label {
+    font-size: 22px;
+}
+
+#inputs>button {
+    width: 95%;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+}
+
+#inputs>button:hover {
+    background-color: rgb(7, 63, 7);
+    cursor: pointer;
+}
+
+#container3 {
+    height: auto;
+    background-color: white;
+    padding-bottom: 70px;
+}
+
+#cont2 {
+    height: auto;
+    background-color: #f5f2eb;
+    width: 85%;
+    margin: auto;
+    background-image: url(https://web-static.wrike.com/tp/static/summaries-bg-4-left.d19e9b50ab36af26e681.svg), url(https://web-static.wrike.com/tp/static/summaries-bg-4-right.7c9e3b0657380be38344.svg);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.country>h3 {
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.country>p {
+    margin-left: 30px;
+}
+
+#world2>h3 {
+    margin-left: 15px;
+}
+
+#world2>h3>span {
+    font-style: italic;
+}
+
+#container6 {
+    height: auto;
+    background-color: #0c3245;
+    background-image: url(https://www.wrike.com/tp/static/assets/img/features-background/feature-bg-1-dark.png);
+}
+
+#container6>h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+#container6>p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.apply1 {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 35px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apply1>input {
+    height: 35px;
+    width: 390px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.apply1>button {
+    width: 190px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+}
+
+.apply1>button:hover {
+    cursor: pointer;
+    background-color: rgb(26, 88, 26);
+}
+
+#footer1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 80px;
+    padding-left: 50px;
+}
+
+#footer1>div>h2 {
+    color: white;
+}
+
+#footer1>div>p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#footer1>div>p:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#footer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    /* gap: 40px; */
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+#footer2>div>h2 {
+    color: white;
+}
+
+#footer2>div>p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#footer2>div>p:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+}
+
+#footer3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+#apps {
+    display: flex;
+}
+
+#apps>img {
+    height: 60px;
+    width: 150px;
+}
+
+#apps>img:hover {
+    cursor: pointer;
+}
+
+#social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 15px;
+}
+
+#social>img {
+    height: 30px;
+    width: 25px;
+}
+
+#social>img:hover {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: aqua;
+}
+
+#policy>p {
+    margin-left: 50px;
+}
